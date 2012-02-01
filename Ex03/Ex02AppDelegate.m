@@ -7,7 +7,7 @@
 //
 
 #import "Ex02AppDelegate.h"
-
+#import "MyUIViewController.h"
 @implementation Ex02AppDelegate
 
 @synthesize window = _window;
@@ -24,6 +24,12 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    
+    
+    MyUIViewController *fvc = [[MyUIViewController alloc] initWithNibName:@"MyUIViewController" bundle:nil];
+    self.window.rootViewController = fvc;
+    
     return YES;
 }
 

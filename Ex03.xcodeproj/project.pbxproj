@@ -13,6 +13,8 @@
 		EA01EB1314D97C4200044691 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA01EB1114D97C4200044691 /* InfoPlist.strings */; };
 		EA01EB1514D97C4200044691 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA01EB1414D97C4200044691 /* main.m */; };
 		EA01EB1914D97C4200044691 /* Ex02AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA01EB1814D97C4200044691 /* Ex02AppDelegate.m */; };
+		EA01EB2214D97C7500044691 /* MyUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA01EB2014D97C7500044691 /* MyUIViewController.m */; };
+		EA01EB2314D97C7500044691 /* MyUIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA01EB2114D97C7500044691 /* MyUIViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +22,15 @@
 		EA01EB0814D97C4200044691 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EA01EB0A14D97C4200044691 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EA01EB0C14D97C4200044691 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		EA01EB1014D97C4200044691 /* Ex03-Info.plist */ = {isa = PBXFileReference; path = "Ex03-Info.plist"; sourceTree = "<group>"; };
+		EA01EB1014D97C4200044691 /* Ex03-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ex03-Info.plist"; sourceTree = "<group>"; };
 		EA01EB1214D97C4200044691 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EA01EB1414D97C4200044691 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EA01EB1614D97C4200044691 /* Ex03-Prefix.pch */ = {isa = PBXFileReference; path = "Ex03-Prefix.pch"; sourceTree = "<group>"; };
-		EA01EB1714D97C4200044691 /* Ex02AppDelegate.h */ = {isa = PBXFileReference; path = Ex02AppDelegate.h; sourceTree = "<group>"; };
+		EA01EB1614D97C4200044691 /* Ex03-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ex03-Prefix.pch"; sourceTree = "<group>"; };
+		EA01EB1714D97C4200044691 /* Ex02AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ex02AppDelegate.h; sourceTree = "<group>"; };
 		EA01EB1814D97C4200044691 /* Ex02AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ex02AppDelegate.m; sourceTree = "<group>"; };
+		EA01EB1F14D97C7500044691 /* MyUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUIViewController.h; sourceTree = "<group>"; };
+		EA01EB2014D97C7500044691 /* MyUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUIViewController.m; sourceTree = "<group>"; };
+		EA01EB2114D97C7500044691 /* MyUIViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyUIViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +79,9 @@
 			children = (
 				EA01EB1714D97C4200044691 /* Ex02AppDelegate.h */,
 				EA01EB1814D97C4200044691 /* Ex02AppDelegate.m */,
+				EA01EB1F14D97C7500044691 /* MyUIViewController.h */,
+				EA01EB2014D97C7500044691 /* MyUIViewController.m */,
+				EA01EB2114D97C7500044691 /* MyUIViewController.xib */,
 				EA01EB0F14D97C4200044691 /* Supporting Files */,
 			);
 			path = Ex03;
@@ -141,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA01EB1314D97C4200044691 /* InfoPlist.strings in Resources */,
+				EA01EB2314D97C7500044691 /* MyUIViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +162,7 @@
 			files = (
 				EA01EB1514D97C4200044691 /* main.m in Sources */,
 				EA01EB1914D97C4200044691 /* Ex02AppDelegate.m in Sources */,
+				EA01EB2214D97C7500044691 /* MyUIViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
